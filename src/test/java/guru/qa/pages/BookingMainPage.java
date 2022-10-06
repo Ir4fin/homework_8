@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class BookingMainPage {
 
     private SelenideElement destinationInput = $("#ss"),
-                            submitButton = $(".sb-searchbox__button")
+                            submitButton = $(".sb-searchbox__button");
 
 
     public BookingMainPage openPage() {
